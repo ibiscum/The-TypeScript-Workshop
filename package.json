@@ -30,8 +30,10 @@
   },
   "workspaces": [
     "chapter-01/activity-01.01",
-    "chapter01/examples",
-    "chapter01/exercise-01.01",
+    "chapter-01/examples",
+    "chapter-01/exercise-01.01",
+    "chapter-01/exercise-01.02",
+    "chapter-01/exercise-01.03",
     "chapter-13/activity-13.01"
   ]
 }
