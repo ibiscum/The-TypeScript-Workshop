@@ -30,7 +30,7 @@ const adminUser: AdminUser = new AdminUser()
 let propString = ''
 
 //loop through your props and append prop names to propString
-for(let u in adminUser) {
+for(const u in adminUser) {
     propString += u + ','
 }
 

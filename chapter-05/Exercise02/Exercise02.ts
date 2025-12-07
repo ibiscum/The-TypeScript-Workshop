@@ -24,9 +24,9 @@ class blogPostClass implements IBlogPost{
 }
 const blog = new blogPostClass();
 
-let post1: BlogPost = {post: 'Goodbye, 2020', timeStamp: 12345678, user: 'Rayon'}
-let post2: BlogPost = {post: 'Welcome, 2021', timeStamp: 12345678, user: 'Mark'}
-let post3: BlogPost = {post: 'What happened to 1999?', timeStamp: 12345678, user: 'Will'}
+const post1: BlogPost = {post: 'Goodbye, 2020', timeStamp: 12345678, user: 'Rayon'}
+const post2: BlogPost = {post: 'Welcome, 2021', timeStamp: 12345678, user: 'Mark'}
+const post3: BlogPost = {post: 'What happened to 1999?', timeStamp: 12345678, user: 'Will'}
 
 blog.addToPost(post1)
 blog.addToPost(post2)

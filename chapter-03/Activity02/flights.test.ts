@@ -7,7 +7,7 @@ import {
 
 describe('flights tests', () => {
   const destinations = getDestinations();
-  let flight = destinations[0];
+  const flight = destinations[0];
   test('get destinations', () => {
     fail('Unimplemented!');
   });

@@ -15,7 +15,7 @@ function makeProduct(p : Product ) {
 }
 // use a for loop to create 5 products
 for (let index = 0; index < 5; index++) {
-    let p : Product = {
+    const p : Product = {
         name: "Product"+"_"+`${index}`,
         count: index,
         price: 100,

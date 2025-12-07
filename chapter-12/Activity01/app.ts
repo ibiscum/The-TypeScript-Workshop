@@ -42,7 +42,7 @@ const renderList = (data: PromiseModel[]) => {
   const table = document.getElementById('promise-table');
   if (table) {
     table.innerHTML = '';
-    let tr = document.createElement('tr');
+    const tr = document.createElement('tr');
     ['Promise', 'Delete'].forEach((label) => {
       const th = document.createElement('th');
       th.innerText = label;

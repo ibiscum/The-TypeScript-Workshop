@@ -1,0 +1,37 @@
+{
+  "name": "the-typescript-workshop",
+  "version": "1.0.0",
+  "description": "The TypeScript Workshop is designed for software developers who want to broaden their skill set by learning TypeScript. To get the most out of this book, you should have a basic knowledge of JavaScript or experience of using another similar programming language.",
+  "homepage": "https://github.com/ibiscum/The-TypeScript-Workshop#readme",
+  "bugs": {
+    "url": "https://github.com/ibiscum/The-TypeScript-Workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibiscum/The-TypeScript-Workshop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
+  },
+  "dependencies": {
+    "jiti": "^2.6.1"
+  },
+  "workspaces": [
+    "chapter-01/activity-01.01",
+    "chapter01/examples",
+    "chapter01/exercise-01.01",
+    "chapter-13/activity-13.01"
+  ]
+}

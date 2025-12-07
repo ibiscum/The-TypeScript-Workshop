@@ -8,7 +8,7 @@ interface SuperAddMe {
     (user: User): User[]
 };
 // step 3
-let allUsers: User[] = [
+const allUsers: User[] = [
     { email: 'home@home.com', userId: 1 },
     { email: 'out@side.com', userId: 2 }
 ];
