@@ -20,30 +20,38 @@ const parseBody = (req: IncomingMessage): Promise<PromiseModel> => {
 const handleCreate = (req: IncomingMessage, res: ServerResponse) =>
   parseBody(req)
     .then((body) => app.db.create(body).then(() => res.end()))
-    .catch((err) => app.handleError(res, 500, err.message));
+    .catch((err: Error) => app.handleError(res, 500, err.message));
 
 const handleDelete = (requestParam: number, res: ServerResponse) =>
   app.db
     .delete(requestParam)
     .then(() => res.end())
-    .catch((err) => app.handleError(res, 500, err.message));
+    .catch((err: Error) => app.handleError(res, 500, err.message));
 
-const handleGetAll = (res: ServerResponse) =>
+interface HandleGetAll {
+  (res: ServerResponse): Promise<void>;
+}
+
+const handleGetAll: HandleGetAll = (res: ServerResponse) =>
   app.db
     .getAll()
-    .then((data) => res.end(JSON.stringify(data)))
-    .catch((err) => app.handleError(res, 500, err.message));
+    .then((data: PromiseModel[]) => res.end(JSON.stringify(data)))
+    .catch((err: Error) => app.handleError(res, 500, err.message));
 
-const handleGetOne = (requestParam: number, res: ServerResponse) =>
+interface HandleGetOne {
+  (requestParam: number, res: ServerResponse): Promise<void>;
+}
+
+const handleGetOne: HandleGetOne = (requestParam, res) =>
   app.db
     .getOne(requestParam)
-    .then((data) => res.end(JSON.stringify(data)))
-    .catch((err) => app.handleError(res, 500, err.message));
+    .then((data: PromiseModel | null) => res.end(JSON.stringify(data)))
+    .catch((err: Error) => app.handleError(res, 500, err.message));
 
 const handleUpdate = (req: IncomingMessage, res: ServerResponse) =>
   parseBody(req)
     .then((body) => app.db.update(body).then(() => res.end()))
-    .catch((err) => app.handleError(res, 500, err.message));
+    .catch((err: Error) => app.handleError(res, 500, err.message));
 
 export const promiseRouter = (req: IncomingMessage, res: ServerResponse) => {
   const urlParts = req.url?.split('/') ?? '/';
@@ -54,6 +62,7 @@ export const promiseRouter = (req: IncomingMessage, res: ServerResponse) => {
       if (requestParam) {
         return handleDelete(Number.parseInt(requestParam), res);
       }
+      break;
     case 'GET':
       if (requestParam) {
         return handleGetOne(Number.parseInt(requestParam), res);

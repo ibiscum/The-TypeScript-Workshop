@@ -1,16 +1,21 @@
 {
-  "name": "Activity12.02",
+  "name": "@chapter-12/exercise-12.06",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "tsc *.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.3",
+    "@types/node": "^14.17.2",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
   }
 }
