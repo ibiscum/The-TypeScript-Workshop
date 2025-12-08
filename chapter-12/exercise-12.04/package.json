@@ -1,16 +1,16 @@
 {
-  "name": "Exercise12.03",
+  "name": "@chapter-12/exercise-12.04",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "tsc *.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.3",
-    "typescript": "^3.9.6"
+    "http-server": "^14.1.1",
+    "typescript": "^5.9.3"
   }
 }

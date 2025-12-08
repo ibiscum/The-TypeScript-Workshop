@@ -1,4 +1,4 @@
-const updateUISolution = (message: any): void => {
+const updateUISolution = (message: unknown): void => {
   const item = document.getElementById('my-data');
   if (item) {
     item.innerText = `Here is your data: ${message}`;
