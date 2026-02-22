@@ -18,26 +18,7 @@
     "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "eslint": "^9.39.2",
-    "globals": "^16.5.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.51.0"
-  },
   "dependencies": {
-    "jiti": "^2.6.1"
-  },
-  "workspaces": [
-    "chapter-01/activity-01.01",
-    "chapter-01/examples",
-    "chapter-01/exercise-01.01",
-    "chapter-01/exercise-01.02",
-    "chapter-01/exercise-01.03",
-    "chapter-01/exercise-01.04",
-    "chapter-01/exercise-01.05",
-    "chapter-01/exercise-01.06",
-    "chapter-03/activity-03.01",
-    "chapter-13/activity-13.01"
-  ]
+    "tsc-watch": "^7.2.0"
+  }
 }

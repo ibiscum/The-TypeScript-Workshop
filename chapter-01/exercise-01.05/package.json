@@ -4,8 +4,8 @@
   "description": "",
   "main": "person-sort.js",
   "scripts": {
-    "dev": "node ./person-sort.js",
-    "compile": "tsc *.ts",
+    "start": "tsc-watch --onsuccess \"node person-sort.js\"",
+    "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

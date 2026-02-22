@@ -1,0 +1,24 @@
+{
+  "name": "@chapter-02/exercise-02.02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lodash_examples.js",
+  "scripts": {
+    "compile": "tsc *.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.13",
+    "@types/lodash": "^4.17.21",
+    "jasmine": "^5.13.0",
+    "jasmine-ts": "^0.4.0",
+    "mem": ">=10.0.0",
+    "nyc": "^17.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "lodash": ">=4.17.21"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "@chapter-01/examples",
+  "name": "@chapter-01/example-01.01",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc example-01.01.ts",
+    "start": "tsc-watch --onsuccess \"node example.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

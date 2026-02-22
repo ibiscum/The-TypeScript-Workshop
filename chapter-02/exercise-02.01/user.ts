@@ -1,7 +1,6 @@
-/// <reference path = "./types/AuthTypes.d.ts" />
-import auth = require("AuthTypes");
+import * as auth from "./types/AuthTypes";
 
-let jon: auth.User;
+let jon: User;
 
 jon = {
     email: "jon@snow.com",
