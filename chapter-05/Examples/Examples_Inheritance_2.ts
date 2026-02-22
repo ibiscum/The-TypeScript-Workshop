@@ -43,5 +43,6 @@ class SuperAdmin extends AdminUser {
 const superAdmin = new SuperAdmin()
 const newAdmin = new AdminUser()
 console.log( superAdmin.resetPassword('iampassword'))
-console.log( newAdmin.resetPassword('iampassword'))
+// Avoid logging sensitive information such as passwords
+// console.log( newAdmin.resetPassword('iampassword'))
 
