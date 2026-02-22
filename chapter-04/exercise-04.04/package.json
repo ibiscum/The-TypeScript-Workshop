@@ -1,0 +1,13 @@
+{
+  "name": "@chapter-04/exercise-04.04",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx scoreboard.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

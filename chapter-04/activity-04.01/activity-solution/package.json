@@ -1,8 +1,10 @@
 {
-  "name": "@chapter-04/activity-04.01",
+  "name": "@chapter-04/activity-solution-04.01",
   "version": "1.0.0",
   "description": "",
   "main": "auth.js",
+  "type": "module",
+  "private": true,
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report"
@@ -10,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/jasmine": "^3.3.12",
-    "jasmine": "^3.4.0",
-    "jasmine-ts": "^0.3.0",
-    "lodash": ">=4.17.13",
+    "@types/jasmine": "^3.10.19",
+    "jasmine": "^3.99.0",
+    "jasmine-ts": "^0.3.3",
+    "lodash": "^4.17.23",
+    "mem": "^10.0.0",
     "nyc": "^14.1.1",
-    "mem": ">=4.0.0",
-    "ts-node": "^8.1.0",
-    "typescript": "^3.4.5"
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.10"
   }
 }
