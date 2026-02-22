@@ -1,9 +1,9 @@
 import {
   checkAvailability,
-  Flight,
+  type Flight,
   holdSeats,
   reserveSeats,
-} from './flights-solution';
+} from './flights-solution.js';
 
 export interface Booking {
   bookingNumber: number;

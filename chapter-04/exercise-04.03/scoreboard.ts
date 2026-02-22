@@ -1,15 +1,16 @@
-class Team{
+class Team {
 
-    name: string;
-    players: string[];
+  name: string;
+  players: string[];
 
-    constructor(name, players){
-        this.name = name;
-        this.players = players;
-    }
-    generateLineup(){
-        return this.players.join(", ");
-    }
+  constructor(name: string, players: string[]) {
+    this.name = name;
+    this.players = players;
+  }
+
+  generateLineup() {
+    return this.players.join(", ");
+  }
 }
 
 const astrosPlayers = ["Altuve", "Bregman", "Correa", "Springer"];
@@ -21,7 +22,3 @@ const blueJaysPlayers = ["Vlad", "Smoak", "Tellez", "Sogard"];
 const blueJays = new Team("Blue Jays", blueJaysPlayers);
 console.log(blueJays.generateLineup());
 console.log(blueJays.name);
-
-
-
-

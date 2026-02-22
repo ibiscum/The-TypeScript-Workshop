@@ -1,4 +1,4 @@
-import { PI, addTwoNumbers } from './utils';
+import { PI, addTwoNumbers } from './utils.js';
 // require syntax:
 // const { PI, addTwoNumbers } = require('./utils');
 

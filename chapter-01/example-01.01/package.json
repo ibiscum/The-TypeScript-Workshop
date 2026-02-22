@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc-watch --onsuccess \"node example.js\"",
+    "start": "tsx example.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

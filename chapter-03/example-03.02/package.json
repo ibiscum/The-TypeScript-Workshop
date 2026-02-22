@@ -1,0 +1,13 @@
+{
+  "name": "@chapter-03/example-03.02",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsc-watch --onsuccess \"node app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

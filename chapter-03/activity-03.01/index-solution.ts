@@ -2,8 +2,8 @@ import {
   completeBooking,
   processPayment,
   startBooking,
-} from './bookings-solution';
-import { getDestinations } from './flights-solution';
+} from './bookings-solution.js';
+import { getDestinations } from './flights-solution.js';
 
 const destinations = getDestinations();
 
@@ -21,7 +21,7 @@ console.log('Lagos flight', destinations[0]);
 try {
   startBooking(destinations[5], 7);
 } catch (e) {
-  console.error(e.message);
+  console.error(e instanceof Error ? e.message : e);
 }
 
 // Let's try the other flight to Istanbul
@@ -38,5 +38,5 @@ console.log('Istanbul flight', destinations[6]);
 try {
   startBooking(destinations[6], 1);
 } catch (e) {
-  console.error(e.message);
+  console.error(e instanceof Error ? e.message : e);
 }

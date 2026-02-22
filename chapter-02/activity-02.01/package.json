@@ -2,7 +2,8 @@
   "name": "@chapter-02/activity-02.01",
   "version": "1.0.0",
   "description": "",
-  "main": "heat_map_data.js",
+  "type":"module",
+  "private":true,
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report"

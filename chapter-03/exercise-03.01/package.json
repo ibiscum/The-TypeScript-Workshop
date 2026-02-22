@@ -4,8 +4,7 @@
   "description": "",
   "main": "exercise.js",
   "scripts": {
-    "dev": "node exercise.js",
-    "compile": "tsc *.ts",
+    "start": "tsx exercise.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +13,8 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "tsx": "^4.21.0"
   }
 }
