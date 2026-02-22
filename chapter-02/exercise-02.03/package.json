@@ -1,12 +1,12 @@
 {
-  "name": "@chapter-02/exercise-02.02",
+  "name": "@chapter-02/exercise-02.03",
   "version": "1.0.0",
   "description": "",
-  "main": "lodash_examples.js",
+  "main": "lodash_newexamples.js",
   "type": "module",
   "private":true,
   "scripts": {
-    "start": "tsc-watch --onsuccess \"node lodash_examples.js\"",
+    "start": "tsc-watch --onsuccess \"node lodash_newexamples.js\"",
     "lint": "eslint --fix ."
   },
   "author": "",
