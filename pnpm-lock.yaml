@@ -361,6 +361,22 @@ importers:
 
   chapter-04/exercise-04.04: {}
 
+  chapter-04/exercise-04.05: {}
+
+  chapter-04/exercise-04.06: {}
+
+  chapter-05/exercise-05.01: {}
+
+  chapter-05/exercise-05.02: {}
+
+  chapter-05/exercise-05.03: {}
+
+  chapter-06/exercise-06.01: {}
+
+  chapter-06/exercise-06.02: {}
+
+  chapter-06/exercise-06.03: {}
+
   chapter-07/Activity01:
     devDependencies:
       ts-node:
