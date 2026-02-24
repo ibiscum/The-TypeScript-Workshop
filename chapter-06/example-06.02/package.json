@@ -1,0 +1,13 @@
+{
+  "name": "@chapter-06/example-06.02",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx example.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

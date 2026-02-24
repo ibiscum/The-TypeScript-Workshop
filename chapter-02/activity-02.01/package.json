@@ -9,7 +9,7 @@
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^5.1.13",
     "@types/lodash": "^4.17.21",

@@ -1,0 +1,13 @@
+{
+  "name": "@chapter-06/activity-06.01",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx activity.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

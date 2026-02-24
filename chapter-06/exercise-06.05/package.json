@@ -1,0 +1,13 @@
+{
+  "name": "@chapter-06/exercise-06.05",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx exercise.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

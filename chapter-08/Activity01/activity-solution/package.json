@@ -2,7 +2,7 @@
   "name": "calculator",
   "version": "1.0.0",
   "main": "dist/main.js",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "node ./dist/main.js",
     "start:watch": "nodemon",

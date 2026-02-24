@@ -377,6 +377,10 @@ importers:
 
   chapter-06/exercise-06.03: {}
 
+  chapter-06/exercise-06.04: {}
+
+  chapter-06/exercise-06.05: {}
+
   chapter-07/Activity01:
     devDependencies:
       ts-node:
