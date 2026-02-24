@@ -1,6 +1,7 @@
 # The-TypeScript-Workshop
 
 [![Dependabot Updates](https://github.com/ibiscum/The-TypeScript-Workshop/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/ibiscum/The-TypeScript-Workshop/actions/workflows/dependabot/dependabot-updates)
+[![CodeQL Advanced](https://github.com/ibiscum/The-TypeScript-Workshop/actions/workflows/codeql.yml/badge.svg)](https://github.com/ibiscum/The-TypeScript-Workshop/actions/workflows/codeql.yml)
 
 The TypeScript Workshop is designed for software developers who want to broaden
 their skill set by learning TypeScript. To get the most out of this book, you should
