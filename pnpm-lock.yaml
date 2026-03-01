@@ -190,8 +190,8 @@ importers:
         specifier: ^26.6.3
         version: 26.6.3(ts-node@9.1.1(typescript@4.9.5))
       ts-jest:
-        specifier: ^26.5.1
-        version: 26.5.6(jest@26.6.3(ts-node@9.1.1(typescript@4.9.5)))(typescript@4.9.5)
+        specifier: ^29.4.6
+        version: 29.4.6(@babel/core@7.29.0)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.29.0))(jest-util@30.2.0)(jest@26.6.3(ts-node@9.1.1(typescript@4.9.5)))(typescript@4.9.5)
       ts-node:
         specifier: ^9.0.0
         version: 9.1.1(typescript@4.9.5)
@@ -4127,14 +4127,6 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4'
 
-  ts-jest@26.5.6:
-    resolution: {integrity: sha512-rua+rCP8DxpA8b4DQD/6X2HQS8Zy/xzViVYfEs2OQu68tkCuKLV0Md8pmX55+W24uRIyAsf/BajRfxOs+R2MKA==}
-    engines: {node: '>= 10'}
-    hasBin: true
-    peerDependencies:
-      jest: '>=26 <27'
-      typescript: '>=3.8 <5.0'
-
   ts-jest@29.4.6:
     resolution: {integrity: sha512-fSpWtOO/1AjSNQguk43hb/JCo16oJDnMJf3CdEGNkqsEX3t0KX96xvyX1D7PfLCpVoKu4MfVrqUkFyblYoY4lA==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
@@ -4466,10 +4458,6 @@ packages:
   yargs-parser@18.1.3:
     resolution: {integrity: sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==}
     engines: {node: '>=6'}
-
-  yargs-parser@20.2.9:
-    resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
-    engines: {node: '>=10'}
 
   yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
@@ -8789,20 +8777,25 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-jest@26.5.6(jest@26.6.3(ts-node@9.1.1(typescript@4.9.5)))(typescript@4.9.5):
+  ts-jest@29.4.6(@babel/core@7.29.0)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.29.0))(jest-util@30.2.0)(jest@26.6.3(ts-node@9.1.1(typescript@4.9.5)))(typescript@4.9.5):
     dependencies:
       bs-logger: 0.2.6
-      buffer-from: 1.1.2
       fast-json-stable-stringify: 2.1.0
+      handlebars: 4.7.8
       jest: 26.6.3(ts-node@9.1.1(typescript@4.9.5))
-      jest-util: 26.6.2
       json5: 2.2.3
-      lodash: 4.17.23
+      lodash.memoize: 4.1.2
       make-error: 1.3.6
-      mkdirp: 1.0.4
       semver: 7.7.4
+      type-fest: 4.41.0
       typescript: 4.9.5
-      yargs-parser: 20.2.9
+      yargs-parser: 21.1.1
+    optionalDependencies:
+      '@babel/core': 7.29.0
+      '@jest/transform': 30.2.0
+      '@jest/types': 30.2.0
+      babel-jest: 30.2.0(@babel/core@7.29.0)
+      jest-util: 30.2.0
 
   ts-jest@29.4.6(@babel/core@7.29.0)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.29.0))(jest-util@30.2.0)(jest@30.2.0(@types/node@25.3.0)(node-notifier@8.0.2)(ts-node@10.9.2(@types/node@25.3.0)(typescript@5.9.3)))(typescript@5.9.3):
     dependencies:
@@ -9169,8 +9162,6 @@ snapshots:
     dependencies:
       camelcase: 5.3.1
       decamelize: 1.2.0
-
-  yargs-parser@20.2.9: {}
 
   yargs-parser@21.1.1: {}
 
