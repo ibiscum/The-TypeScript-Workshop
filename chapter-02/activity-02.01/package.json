@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^5.1.13",
-    "@types/lodash": "^4.17.21",
+    "@types/lodash": "^4.17.24",
     "jasmine": "^5.13.0",
     "jasmine-ts": "^0.4.0",
     "mem": ">=10.0.0",
