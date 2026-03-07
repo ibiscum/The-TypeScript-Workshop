@@ -18,6 +18,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "escape-html": "^1.0.3",
-    "express-rate-limit": "^8.2.1"
+    "express-rate-limit": "^8.2.2"
   }
 }
