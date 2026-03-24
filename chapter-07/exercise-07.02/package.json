@@ -1,0 +1,15 @@
+{
+  "name": "@chapter-07/exercise-07.02",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private":true,
+  "scripts": {
+    "start": "tsx school-token.start.ts",
+    "end": "tsx school-token.end.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

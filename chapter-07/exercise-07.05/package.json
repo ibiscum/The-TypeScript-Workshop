@@ -1,9 +1,11 @@
 {
-  "name": "activity7-02",
+  "name": "@chapter-07/exercise-07.05",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "private": true,
   "scripts": {
+    "start": "tsx teacher-logging.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,13 +13,10 @@
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
-<<<<<<< HEAD
+<<<<<<< HEAD:chapter-07/Exercise01/package.json
     "typescript": "^4.0.2"
 =======
     "typescript": "^5.9.3"
->>>>>>> 428fc6d (update)
-  },
-  "dependencies": {
-    "reflect-metadata": "^0.2.2"
+>>>>>>> 428fc6d (update):chapter-07/exercise-07.05/package.json
   }
 }

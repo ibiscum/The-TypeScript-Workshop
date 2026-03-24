@@ -9,10 +9,9 @@
   "author": "",
   "license": "MIT",
   "description": "",
-  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.5.0",
     "ts-node": "^10.9.2",
-    "typescript": "^4.1.3"
+    "typescript": "^5.9.3"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "@chapter-07/exercise-07.04",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private":true,
+  "scripts": {
+    "start": "tsx teacher-enumerating.start.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+<<<<<<< HEAD:chapter-07/Exercise03/package.json
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^4.0.2"
+  }
+=======
+  "license": "MIT"
+>>>>>>> 428fc6d (update):chapter-07/exercise-07.04/package.json
+}

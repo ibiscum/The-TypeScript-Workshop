@@ -2,8 +2,8 @@
   "name": "@chapter-02/activity-02.01",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
-  "private":true,
+  "type": "module",
+  "private": true,
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report"
@@ -11,16 +11,16 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "^5.1.13",
+    "@types/jasmine": "^6.0.0",
     "@types/lodash": "^4.17.24",
-    "jasmine": "^5.13.0",
+    "jasmine": "^6.1.0",
     "jasmine-ts": "^0.4.0",
-    "mem": ">=10.0.0",
-    "nyc": "^17.1.0",
+    "mem": "^10.0.0",
+    "nyc": "^18.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "lodash": ">=4.17.21"
+    "lodash": "^4.17.23"
   }
 }
