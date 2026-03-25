@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "private":true,
+  "private": true,
   "scripts": {
     "start": "tsc-watch --onsuccess \"node index.js\"",
     "lint": "eslint --fix .",
@@ -14,6 +14,6 @@
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }

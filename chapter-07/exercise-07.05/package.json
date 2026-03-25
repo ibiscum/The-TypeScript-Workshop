@@ -13,10 +13,6 @@
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
-<<<<<<< HEAD:chapter-07/Exercise01/package.json
-    "typescript": "^4.0.2"
-=======
-    "typescript": "^5.9.3"
->>>>>>> 428fc6d (update):chapter-07/exercise-07.05/package.json
+    "typescript": "^6.0.2"
   }
 }

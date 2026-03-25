@@ -11,11 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
-<<<<<<< HEAD
-    "typescript": "^4.0.2"
-=======
-    "typescript": "^5.9.3"
->>>>>>> 428fc6d (update)
+    "typescript": "^6.0.2"
   },
   "dependencies": {
     "reflect-metadata": "^0.2.2"
