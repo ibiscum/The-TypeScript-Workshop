@@ -4,7 +4,7 @@
   "description": "",
   "main": "person-sort.js",
   "scripts": {
-    "start": "tsc-watch --onsuccess \"node person-sort.js\"",
+    "start": "ts-node person-sort.ts",
     "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -2,8 +2,9 @@
   "name": "@chapter-01/exercise-01.04",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "scripts": {
-    "start": "tsc-watch --onsuccess \"node type-test.js\"",
+    "start": "ts-node type-test.ts",
     "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

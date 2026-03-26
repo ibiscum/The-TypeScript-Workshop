@@ -30,7 +30,14 @@ importers:
         specifier: ^8.57.2
         version: 8.57.2(eslint@10.1.0(jiti@2.6.1))(typescript@6.0.2)
 
-  chapter-01/activity-01.01: {}
+  chapter-01/activity-01.01:
+    devDependencies:
+      ts-node:
+        specifier: ^10.9.2
+        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
 
   chapter-01/example-01.01:
     devDependencies:
@@ -1191,6 +1198,15 @@ importers:
         version: 6.0.2
 
   chapter-13/exercise-13.01: {}
+
+  chapter-13/exercise-13.02:
+    devDependencies:
+      ts-node:
+        specifier: ^10.9.2
+        version: 10.9.2(@types/node@25.5.0)(typescript@6.0.2)
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
 
   chapter-14/Activity01/solution:
     dependencies:
@@ -11561,7 +11577,7 @@ snapshots:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2102.3(chokidar@5.0.0)
-      '@angular-devkit/build-webpack': 0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2))(webpack@5.105.2(esbuild@0.27.3))
+      '@angular-devkit/build-webpack': 0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3)))(webpack@5.105.2(esbuild@0.27.3))
       '@angular-devkit/core': 21.2.3(chokidar@5.0.0)
       '@angular/build': 21.2.3(@angular/compiler-cli@21.2.5(@angular/compiler@21.2.5)(typescript@6.0.2))(@angular/compiler@21.2.5)(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1))(@angular/platform-browser@21.2.5(@angular/animations@21.2.5(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1)))(@angular/common@21.2.5(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1))(rxjs@7.8.2))(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1)))(@types/node@25.5.0)(chokidar@5.0.0)(jiti@2.6.1)(less@4.4.2)(postcss@8.5.6)(tailwindcss@3.4.19(tsx@4.21.0))(terser@5.46.0)(tslib@2.8.1)(tsx@4.21.0)(typescript@6.0.2)
       '@angular/compiler-cli': 21.2.5(@angular/compiler@21.2.5)(typescript@6.0.2)
@@ -11611,8 +11627,8 @@ snapshots:
       tslib: 2.8.1
       typescript: 6.0.2
       webpack: 5.105.2(esbuild@0.27.3)
-      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2)
-      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2)
+      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
+      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
       webpack-merge: 6.0.1
       webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.6(webpack@5.105.2))(webpack@5.105.2(esbuild@0.27.3))
     optionalDependencies:
@@ -11648,7 +11664,7 @@ snapshots:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2102.3(chokidar@5.0.0)
-      '@angular-devkit/build-webpack': 0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2))(webpack@5.105.2(esbuild@0.27.3))
+      '@angular-devkit/build-webpack': 0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3)))(webpack@5.105.2(esbuild@0.27.3))
       '@angular-devkit/core': 21.2.3(chokidar@5.0.0)
       '@angular/build': 21.2.3(@angular/compiler-cli@21.2.5(@angular/compiler@21.2.5)(typescript@6.0.2))(@angular/compiler@21.2.5)(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1))(@angular/platform-browser@21.2.5(@angular/animations@21.2.5(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1)))(@angular/common@21.2.5(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1))(rxjs@7.8.2))(@angular/core@21.2.5(@angular/compiler@21.2.5)(rxjs@7.8.2)(zone.js@0.16.1)))(@types/node@25.5.0)(chokidar@5.0.0)(jiti@2.6.1)(less@4.4.2)(postcss@8.5.6)(tailwindcss@3.4.19(tsx@4.21.0))(terser@5.46.0)(tslib@2.8.1)(tsx@4.21.0)(typescript@6.0.2)
       '@angular/compiler-cli': 21.2.5(@angular/compiler@21.2.5)(typescript@6.0.2)
@@ -11698,8 +11714,8 @@ snapshots:
       tslib: 2.8.1
       typescript: 6.0.2
       webpack: 5.105.2(esbuild@0.27.3)
-      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2)
-      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2)
+      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
+      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
       webpack-merge: 6.0.1
       webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.6(webpack@5.105.4))(webpack@5.105.2(esbuild@0.27.3))
     optionalDependencies:
@@ -11731,12 +11747,12 @@ snapshots:
       - webpack-cli
       - yaml
 
-  '@angular-devkit/build-webpack@0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2))(webpack@5.105.2(esbuild@0.27.3))':
+  '@angular-devkit/build-webpack@0.2102.3(chokidar@5.0.0)(webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3)))(webpack@5.105.2(esbuild@0.27.3))':
     dependencies:
       '@angular-devkit/architect': 0.2102.3(chokidar@5.0.0)
       rxjs: 7.8.2
       webpack: 5.105.2(esbuild@0.27.3)
-      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2)
+      webpack-dev-server: 5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
     transitivePeerDependencies:
       - chokidar
 
@@ -23600,7 +23616,7 @@ snapshots:
       schema-utils: 4.3.3
       webpack: 5.105.4
 
-  webpack-dev-middleware@7.4.5(tslib@2.8.1)(webpack@5.105.2):
+  webpack-dev-middleware@7.4.5(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3)):
     dependencies:
       colorette: 2.0.20
       memfs: 4.57.1(tslib@2.8.1)
@@ -23653,7 +23669,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2):
+  webpack-dev-server@5.2.3(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3)):
     dependencies:
       '@types/bonjour': 3.5.13
       '@types/connect-history-api-fallback': 1.5.4
@@ -23681,7 +23697,7 @@ snapshots:
       serve-index: 1.9.2
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2)
+      webpack-dev-middleware: 7.4.5(tslib@2.8.1)(webpack@5.105.2(esbuild@0.27.3))
       ws: 8.20.0
     optionalDependencies:
       webpack: 5.105.2(esbuild@0.27.3)
