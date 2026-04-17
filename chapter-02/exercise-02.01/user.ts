@@ -1,4 +1,4 @@
-import * as auth from "./types/AuthTypes";
+import type {AuthTypes} from "./types/AuthTypes";
 
 let jon: User;
 
