@@ -1,13 +1,12 @@
 {
-  "name": "exercise-01.04",
+  "name": "activity-07.01",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
-    "start": "node ./dist/type-test.js",
-    "lint": "eslint --fix .",
+    "start": "node ./dist/call-counting.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +15,6 @@
   "devDependencies": {
     "@types/node": "^25.6.0",
     "rimraf": "^6.1.3",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.2"
   }
 }

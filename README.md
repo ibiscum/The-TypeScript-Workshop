@@ -31,3 +31,8 @@ The preceding command will install version 4.1.3 globally. There are several oth
 libraries and dependencies that you might have to install as part of executing the
 code given in the exercises and activities in this book. However, instructions for doing
 so have been provided in the relevant chapter/section.
+
+## Helper
+
+	grep -r --include="package.json" --exclude-dir="node_modules" "vite" .
+
