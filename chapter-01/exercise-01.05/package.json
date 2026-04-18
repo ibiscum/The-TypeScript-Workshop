@@ -1,10 +1,12 @@
 {
-  "name": "@chapter-01/exercise-01.05",
+  "name": "exercise-01.05",
   "version": "1.0.0",
   "description": "",
-  "main": "person-sort.js",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "start": "ts-node person-sort.ts",
+    "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
+    "start": "node ./dist/person-sort.js",
     "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.2",
+    "@types/node": "^25.6.0",
+    "rimraf": "^6.1.3",
     "typescript": "^6.0.2"
   }
 }
