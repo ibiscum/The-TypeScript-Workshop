@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type":"module",
+  "private":true,
   "scripts": {
     "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
     "start": "node ./dist/squares.js",
