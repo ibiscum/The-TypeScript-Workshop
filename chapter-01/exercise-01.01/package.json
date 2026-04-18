@@ -1,15 +1,18 @@
 {
-  "name": "@chapter-01/exercise-01.01",
+  "name": "exercise-01.01",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "scripts": {
-    "start": "ts-node squares.ts",
+    "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
+    "start": "node ./dist/squares.js",
     "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "@types/node": "^25.6.0",
+    "rimraf": "^6.1.3",
+    "typescript": "^6.0.3"
   },
   "keywords": [],
   "author": "",

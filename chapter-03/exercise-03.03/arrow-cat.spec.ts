@@ -1,4 +1,4 @@
-import { capitalize } from './arrow-cat-solution';
+import { capitalize } from './arrow-cat.js';
 
 describe('test suite for `sentence`', () => {
   test('capitalize', () => {
