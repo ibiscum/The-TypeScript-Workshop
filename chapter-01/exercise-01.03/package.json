@@ -1,10 +1,12 @@
 {
-  "name": "@chapter-01/exercise-01.03",
+  "name": "exercise-01.03",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "start": "ts-node book.ts",
+    "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
+    "start": "node ./dist/book.js",
     "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "@types/node": "^25.6.0",
+    "rimraf": "^6.1.3",
+    "typescript": "^6.0.3"
   }
 }
