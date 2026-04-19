@@ -1,4 +1,4 @@
-/// <reference path="./types/HeatMapTypes.d.ts"/>
+/// <reference path="./src/types/HeatMapTypes.d.ts"/>
 import hmt = require('HeatMapTypes');
 import _ = require('lodash');
 

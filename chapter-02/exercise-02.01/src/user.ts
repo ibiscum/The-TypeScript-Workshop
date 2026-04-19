@@ -1,4 +1,4 @@
-import type {AuthTypes} from "./types/AuthTypes";
+import type {User} from "./types/AuthTypes.js";
 
 let jon: User;
 
@@ -7,11 +7,14 @@ jon = {
     roles: ["admin"]
 };
 
-let alice: auth.User;
+let alice: User;
 
 alice = {
     email: "alice@snow.com",
     roles: ["super_admin"],
     source: "facebook"
 };
+
+console.log(jon);
+console.log(alice);
 

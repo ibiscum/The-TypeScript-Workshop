@@ -1,7 +1,7 @@
-/// <reference path="../types/HeatMapTypes.d.ts"/>
+/// <reference path="../src/types/HeatMapTypes.d.ts"/>
 import hmt = require("HeatMapTypes");
 import _ = require("lodash");
-import { data, findMatch } from "./../heat_map_data.js";
+import { data, findMatch } from "../src/heat_map_data.js";
 import "jasmine";
 
 describe("heat map data shape", () => {

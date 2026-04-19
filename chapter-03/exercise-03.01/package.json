@@ -1,20 +1,17 @@
 {
-  "name": "@chapter-03/exercise-03.01",
+  "name": "exercise-03.01",
   "version": "1.0.0",
   "description": "",
-  "main": "exercise.js",
+
   "scripts": {
-    "start": "tsx exercise.ts",
+    "build": "rimraf dist/**/* && tsc --build --clean && tsc --build",
+    "start": "node ./dist/exercise.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
-  },
-  "dependencies": {
-    "tsx": "^4.21.0"
   }
 }
