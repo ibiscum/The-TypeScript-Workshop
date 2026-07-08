@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/jasmine": "^6.0.0",
     "@types/lodash": "^4.17.24",
-    "jasmine": "^6.1.0",
+    "jasmine": "^6.3.0",
     "jasmine-ts": "^0.4.0",
     "mem": "^10.0.0",
     "nyc": "^18.0.0",
