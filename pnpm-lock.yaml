@@ -127,11 +127,11 @@ importers:
         specifier: ^4.17.24
         version: 4.17.24
       jasmine:
-        specifier: ^6.3.0
-        version: 6.3.0
+        specifier: ^7.0.0
+        version: 7.0.0
       jasmine-ts:
         specifier: ^0.4.0
-        version: 0.4.0(jasmine@6.3.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2)
+        version: 0.4.0(jasmine@7.0.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2)
       mem:
         specifier: ^10.0.0
         version: 10.0.0
@@ -173,11 +173,11 @@ importers:
         specifier: ^26.1.2
         version: 26.1.2
       jasmine:
-        specifier: ^6.3.0
-        version: 6.3.0
+        specifier: ^7.0.0
+        version: 7.0.0
       jasmine-ts:
         specifier: ^0.4.0
-        version: 0.4.0(jasmine@6.3.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2)
+        version: 0.4.0(jasmine@7.0.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2)
       mem:
         specifier: ^10.0.0
         version: 10.0.0
@@ -665,8 +665,8 @@ packages:
     resolution: {integrity: sha512-+Sg6GCR/wy1oSmQDFq4LQDAhm3ETKnorxN+y5nbLULOR3P0c14f2Wurzj3/xqPXtasLFfHd5iRFQ7AJt4KH2cw==}
     engines: {node: '>=8'}
 
-  '@jasminejs/reporters@1.0.0':
-    resolution: {integrity: sha512-rM3GG4vx2H1Gp5kYCTr9aKlOEJFd43pzpiMAiy5b1+FUc2ub4e6bS6yCi/WQNDzAa5MVp9++dwcoEtcIfoEnhA==}
+  '@jasminejs/reporters@1.1.0':
+    resolution: {integrity: sha512-JIrlfaf9c6m0+GtBAgZdcFB6RIRbFBbXxZDZ0WOewq4cLIEcVKEe0RgI1FA77M39FNzeSMTAm+LK/kcQVIkfGQ==}
 
   '@jest/console@30.4.1':
     resolution: {integrity: sha512-v3bhyxUh9Hgmo5p6hAOXe14/R3ZxZDOsvHleh4B07z3m/x4/ngPUXEm9XwK4sF4u+f+P2ORb0Ge+MgpaqRMVDA==}
@@ -1739,8 +1739,8 @@ packages:
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
-  jasmine-core@6.3.0:
-    resolution: {integrity: sha512-eMm5qBovNjNoGOcgE/W207+wrcK5zrQv0Rg/rWGboUJUmZp0dFCpHTyjpuDAfCwRCqg7f9U2q2jtv/aUuzdCQg==}
+  jasmine-core@7.0.2:
+    resolution: {integrity: sha512-YMVijt84KPQQFm1db1AQAxTXfq0k3wU06OkepLViljURFqiRQ7EYYX2eUAshhUv9fA9t1E2N65GrdqvupA9VPQ==}
 
   jasmine-ts@0.4.0:
     resolution: {integrity: sha512-bIAWJKUwxfuZfGI1ctEbny7+dsyFzsN0eLzOokxh0qIUCofai2WUEKoe3MMllkGEBXJzbEVYr2IyhJBv4j7SBA==}
@@ -1750,8 +1750,8 @@ packages:
       ts-node: '>=3.2.0 <=11'
       typescript: '>=3.5.2'
 
-  jasmine@6.3.0:
-    resolution: {integrity: sha512-u6L7yYtrtS1JALlp7f4k7Wz7o7ZKXauSKKkXc0L3qUkKrdaxYvNiMHhHp5gtTuVZZXVihXRxS7bWwDBX1wJ7EQ==}
+  jasmine@7.0.0:
+    resolution: {integrity: sha512-rnjiyg1LAhFZMoyU8ei/Wqyvti5oCzFhW7ZtkD6o+CSx3LpU9aYurPrh5BKyX3coGvmdEVYPC2HYh1rrBvZoWg==}
     hasBin: true
 
   jest-changed-files@30.4.1:
@@ -2899,7 +2899,7 @@ snapshots:
 
   '@istanbuljs/schema@0.1.6': {}
 
-  '@jasminejs/reporters@1.0.0': {}
+  '@jasminejs/reporters@1.1.0': {}
 
   '@jest/console@30.4.1':
     dependencies:
@@ -4014,20 +4014,20 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jasmine-core@6.3.0: {}
+  jasmine-core@7.0.2: {}
 
-  jasmine-ts@0.4.0(jasmine@6.3.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2):
+  jasmine-ts@0.4.0(jasmine@7.0.0)(ts-node@10.9.2(@types/node@26.1.2)(typescript@7.0.2))(typescript@7.0.2):
     dependencies:
-      jasmine: 6.3.0
+      jasmine: 7.0.0
       ts-node: 10.9.2(@types/node@26.1.2)(typescript@7.0.2)
       typescript: 7.0.2
       yargs: 17.7.2
 
-  jasmine@6.3.0:
+  jasmine@7.0.0:
     dependencies:
-      '@jasminejs/reporters': 1.0.0
+      '@jasminejs/reporters': 1.1.0
       glob: 13.0.6
-      jasmine-core: 6.3.0
+      jasmine-core: 7.0.2
 
   jest-changed-files@30.4.1:
     dependencies:
