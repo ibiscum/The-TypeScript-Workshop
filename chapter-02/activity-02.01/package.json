@@ -11,6 +11,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/jasmine": "^6.0.0",
+    "@types/lodash": "^4.17.27",
     "@types/jasmine": "^7.0.0",
     "@types/lodash": "^4.17.25",
     "jasmine": "^7.0.0",
